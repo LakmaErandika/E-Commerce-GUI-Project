@@ -12,7 +12,7 @@
         <div>
           <p class="text-xs font-black uppercase tracking-[0.3em] text-zinc-400 mb-4">New Collection 2026</p>
           <h1 class="text-6xl lg:text-8xl font-black uppercase leading-none tracking-tight mb-6">
-            Shop<br/><span class="text-transparent" style="-webkit-text-stroke: 2px white;">Bold.</span><br/>Shop<br/>Now.
+            Shop<br/><span class="text-transparent" style="-webkit-text-stroke: 2px white;">Premium.</span><br/>Live<br/>Luxe.
           </h1>
           <p class="text-zinc-400 text-lg mb-8 max-w-md leading-relaxed">
             Discover thousands of products across every category. Quality guaranteed, prices unmatched.
@@ -110,7 +110,7 @@ const stats = [
   { value: '10K+', label: 'Products' },
   { value: '500+', label: 'Brands' },
   { value: '4.8★', label: 'Avg Rating' },
-  { value: 'Free', label: 'Shipping $50+' },
+  { value: 'Free', label: 'Shipping $25+' },
 ]
 
 onMounted(async () => {

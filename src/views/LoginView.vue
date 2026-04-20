@@ -4,10 +4,10 @@
       <!-- Header -->
       <div class="text-center mb-10">
         <div class="w-14 h-14 bg-zinc-900 dark:bg-white rounded-xl flex items-center justify-center mx-auto mb-4">
-          <span class="text-white dark:text-zinc-900 font-black text-2xl">S</span>
+          <span class="text-white dark:text-zinc-900 font-black text-2xl">LM</span>
         </div>
         <h1 class="text-3xl font-black uppercase tracking-tight">Welcome Back</h1>
-        <p class="text-zinc-500 dark:text-zinc-400 mt-2 text-sm">Sign in to your ShopX account</p>
+        <p class="text-zinc-500 dark:text-zinc-400 mt-2 text-sm">Sign in to your LUXMART account</p>
       </div>
 
       <!-- Card -->

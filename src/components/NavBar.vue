@@ -2,7 +2,7 @@
   <nav class="sticky top-0 z-50 bg-white dark:bg-zinc-950 border-b border-zinc-200 dark:border-zinc-800">
     <!-- Top bar -->
     <div class="bg-zinc-900 dark:bg-zinc-800 text-white text-xs text-center py-2 tracking-widest uppercase">
-      Free shipping on orders over $50 — Limited time
+      Free shipping on orders over $25 — Limited time
     </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -10,9 +10,9 @@
         <!-- Logo -->
         <RouterLink to="/" class="flex items-center gap-2">
           <div class="w-8 h-8 bg-zinc-900 dark:bg-white rounded-sm flex items-center justify-center">
-            <span class="text-white dark:text-zinc-900 font-black text-sm">S</span>
+            <span class="text-white dark:text-zinc-900 font-black text-sm">LM</span>
           </div>
-          <span class="font-black text-xl tracking-tight uppercase">ShopX</span>
+          <span class="font-black text-xl tracking-tight uppercase">LUXMART</span>
         </RouterLink>
 
         <!-- Nav Links (desktop) -->
