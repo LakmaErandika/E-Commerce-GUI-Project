@@ -26,7 +26,7 @@
         <!-- Right icons -->
         <div class="flex items-center gap-4">
           <!-- Dark mode toggle -->
-          <button @click="$emit('toggleDark')" class="p-2 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors">
+          <button @click="$emit('toggle-dark')" class="p-2 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors">
             <svg v-if="!isDark" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
             </svg>
@@ -79,7 +79,7 @@ import { useCartStore } from '../stores/cartStore'
 import { useAuthStore } from '../stores/authStore'
 
 defineProps<{ isDark: boolean }>()
-defineEmits(['toggleDark'])
+defineEmits(['toggle-dark'])
 
 const cartStore = useCartStore()
 const auth = useAuthStore()
