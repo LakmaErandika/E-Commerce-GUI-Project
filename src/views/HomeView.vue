@@ -30,7 +30,7 @@
         </div>
 
         <!-- Featured product cards -->
-        <div class="hidden lg:grid grid-cols-2 gap-4">
+        <div class="grid grid-cols-2 gap-4 mt-8 lg:mt-0">
           <div v-for="(product, i) in featuredProducts.slice(0, 4)" :key="product.id"
             @click="$router.push(`/product/${product.id}`)"
             :class="i % 2 === 1 ? 'mt-8' : ''"
